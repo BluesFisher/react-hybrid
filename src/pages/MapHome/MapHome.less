@@ -1,0 +1,29 @@
+.MapHome-container {
+  .page-common-style;
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+
+  .map-home-tab-content {
+    position: absolute;
+    height: calc(100% - .13rem);
+    width: 100%;
+    z-index: @z-index-on-map;
+  }
+
+  .map-home-title {
+    padding-left: @position-left;
+    font-size: @font-nav;
+    font-family: "PingFangSC-Medium" !important;
+  }
+
+  .map-home-tab {
+    flex: 1;
+    margin-top: .25rem;
+  }
+
+  .map-home-content {
+    height: 100%;
+    width: 100%;
+  }
+}
